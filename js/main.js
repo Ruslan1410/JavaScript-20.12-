@@ -1,8 +1,3 @@
-var num = 2;
-function info() {
-    console.log("Hello");
-    console.log("world!");
-    
+function onclickButton () {
+    alert('произошло нажатие');
 }
-info();
-console.log(num);
