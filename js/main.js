@@ -1,15 +1,6 @@
-var text = document.getElementById('text') ;
-text.title = "my text";
-console.log(text.title);
+function checkForm(el) {
 
-text.style.color = "blue";
-text.style.backgroundColor = "red";
+    console.log("Text");
 
-text.innerHTML = "my<br>string";
-
-// var spans = document.getElementsByTagName('span');
-
-var spans = document.getElementsByClassName('simple-text');
-for(var i = 0; i<spans.length;i++) {
-    console.log(spans[i].innerHTML);
+    return false;
 }
